@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabo's Happy Hen Farm</title>
+    <link rel="stylesheet" href="contact_styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(241, 222, 192);
+        }
+
+        header {
+            background-color: rgb(245, 206, 77); 
+            color: black;
+            padding: 10px;
+            text-align: right;
+            font-size: 24px;
+        }
+
+        header img {
+            display: flex;
+            width: 90px;
+            margin-right: 10px;    
+        }
+
+        header h1 {
+            margin: 0 auto; 
+            text-align: center; 
+            animation: scaleUp 1s ease-in-out; 
+        }
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left; 
+        }
+
+        .roll {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        li {
+            font-size: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .social-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box; 
+        }
+
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2, p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s; 
+        }
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        section p {
+            color: #333; 
+        }
+
+        footer {
+            background-color: rgb(245, 206, 77);
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khabo's Happy Hen Farm</h1>
+        <nav>
+            <a href="index.html"><img src="images/flat-design-rooster-illustration_23-2149542057.jpg" width="90" height="70"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Contact Information</h2>
+        <div class="roll">
+            <img src="images/WhatsApp Image 2024-03-25 at 23.38.54.jpeg" width="250">
+        </div>
+        <p>For any inquiries or feedback, we're here to assist you. Get in touch with us using the contact information provided below:</p>
+        <p>Email: khabotokelo7@gmail.com</p>
+        <p>Phone: 51896987</p>
+        <p>Address: Khabo's 460, Leribe, Lesotho</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/profile.php?id=100085102235073"><img src="images/facebook.png" width="50" height="25"></a>
+            <a href="https://wa.me/qr/NMH5MKPSU6XDA1"><img src="images/whatsapp.png" width="50" height="25"></a>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Sustainability at Khabo's Happy Hen Farm : Committed to continuous improvement and environmental stewardship, we champion sustainable agriculture and

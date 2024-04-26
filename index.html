@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabo's Happy Hen Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="images/chicken (8).jpg"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(241, 222, 192);
+        }
+        header img {
+            display: flex;
+            width: 90px;
+            margin-right: 10px;    
+        }
+        .roll {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header {
+            background-color:  rgb(245, 206, 77);
+            color: black;
+            padding: 10px;
+            text-align: right;
+            font-size: 24px;
+        }
+        p, li {
+            font-size: 20px;
+        }
+        p {
+            text-align: center;
+        }
+        h2 {
+            font-size: 28px;
+            text-align: center;
+        }
+        h3 {
+            font-size: 24px;
+        }
+        header h1 {
+            margin: 0 auto; 
+            text-align: center; 
+            animation: scaleUp 1s ease-in-out; 
+        }
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s; 
+        }
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+        section {
+            padding: 20px;
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color:  rgb(245, 206, 77);
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khabo's Happy Hen Farm</h1>
+        <nav>
+            <a href="index.html"><img src="images/flat-design-rooster-illustration_23-2149542057.jpg" width="90" height="70"></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="content">
+        <article>
+            <h2>Discover the Freshness of Our Farm</h2>
+            <div class="roll">
+                <img src="images/chicken (1).jpeg" width="400" class="center-image">
+                <img src="images/chicken (3).jpeg" width="400" height="275">
+            </div>
+            <p>commitment to organic farming practices, animal welfare, or sustainability.</p>
+
+            <h3>Why choose our eggs</h3>
+            <ul>
+                <li>High-quality protein: Eggs are an excellent source of complete protein, containing all nine essential amino acids needed for muscle growth and repair.</li>
+                <li>Food allergy-friendly: Eggs are not considered a common allergen, making them a good option for those with food allergies or sensitivities.</li>
+                <li>Brain health: The choline in eggs is important for brain development and memory, particularly during pregnancy and early childhood.</li>
+                <li>Heart-healthy fats: The yolk contains healthful monounsaturated and polyunsaturated fats, which can help lower LDL cholesterol levels.</li>
+                <li>Affordable: Eggs are generally an affordable source of protein and nutrients, making them a cost-effective food choice.</li>
+            </ul>
+        </article>
+    </section>
+    
+    <footer>
+        <p>Sustainability at Khabo's Happy Hen Farm : Committed to continuous improvement and environmental stewardship, we champion sustainable agriculture and community collaboration. Together, we're building a sustainable future. Join us in celebrating the earth's beauty with every egg you enjoy.</p>
+    </footer>
+</body>
+</html>

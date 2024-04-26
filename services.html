@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khabo's Happy Hen Farm</title>
+    <link rel="stylesheet" href="services_styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(241, 222, 192);
+        }
+
+        header {
+            background-color: rgb(245, 206, 77);
+            color: black;
+            padding: 10px;
+            text-align: right;
+            font-size: 24px;
+        }
+
+        header img {
+            display: flex;
+            width: 90px;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            margin: 0 auto; 
+            text-align: center; 
+            animation: scaleUp 1s ease-in-out; 
+        }
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .design-col {
+            display: block;
+            grid-column: 2;
+            flex-basis: 32%;
+            background: #ebbb75;
+            border-radius: 15px;
+            margin-bottom: 5%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 0.5s;
+            opacity: 0; 
+        }
+
+        .row {
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        .design-col {
+            animation: fadeInDesignCol 1s forwards; 
+        }
+
+        @keyframes fadeInDesignCol {
+            from {
+                opacity: 0; 
+                transform: translateY(20px); 
+            }
+            to {
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s; 
+        }
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #333;
+        }
+
+        section p {
+            color: #555;
+        }
+
+        footer {
+            background-color: rgb(245, 206, 77);
+            color:black;
+            padding: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Khabo's Happy Hen Farm</h1>
+    <nav>
+        <a href="index.html"><img src="images/flat-design-rooster-illustration_23-2149542057.jpg" width="90" height="80"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="content">
+    <article>
+        <h3>Services Offered</h3>
+        <p>At FreshEggs Farm, we're dedicated to providing a variety of services that cater to your needs and support our commitment to sustainable farming practices. Explore our offerings below:</p>
+        <div class="row">
+
+            <div class="design-col">
+                <h2>Farm Tours and Educational Workshops</h2>
+                <p>Immerse yourself in the world of sustainable agriculture with our guided farm tours and educational workshops. Learn about hen care, egg production, and environmental stewardship while enjoying a hands-on experience on the farm.</p>
+            </div>
+            <div class="design-col">
+                <h2>Community Engagement Events</h2>
+                <p>Join us for community events that celebrate healthy living and sustainable agriculture. From farm-to-table dinners to cooking classes and volunteer opportunities, there's something for everyone to enjoy.</p>
+            </div>
+            <div class="design-col">
+                <h2>Customized Egg Products</h2>
+                <p>Need something unique? Our team can create custom egg products to meet your specific needs. Whether it's specialty eggs for baking or promotional items for your business, we'll work with you to bring your vision to life.</p>
+            </div>
+        </div>
+        <video width="640" height="360" controls>
+            <source src="images/y2mate.is - 2weeks old 45days chicken-0TkihJHRmBg-360p-1714129391.mp4.crdownload" type="video/mp4">
+        </video>
+    </article>
+</section>
+
+<footer>
+    <p>Sustainability at Khabo's Happy Hen Farm : Committed to continuous improvement and environmental stewardship, we champion sustainable agriculture and community collaboration. Together, we're building a sustainable future. Join us in celebrating the earth's beauty with every egg you enjoy.</p>
+</footer>
+</body>
+</html>
